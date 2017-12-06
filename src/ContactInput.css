@@ -1,0 +1,74 @@
+.react-datepicker__day--highlighted-override {
+  background: rgb(222, 225, 226);
+  border-radius: 100px;
+}
+.react-datepicker__day--highlighted-override:hover {
+  background: #f0f0f0;
+  border-radius: 100px;
+}
+
+.ContactInput {
+  color: rgb(172, 173, 176);
+  display: block;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.ContactInput__label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.ContactInput__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.ContactInput__title {
+  display: inline-block;
+  color: rgb(103, 103, 103);
+}
+.ContactInput__close {
+  display: inline-block;
+  color: rgb(103, 103, 103);
+}
+.ContactInput__close:before {
+  display: block;
+  content: '\2715';
+  color: rgb(103, 103, 103);
+  cursor: pointer;
+}
+
+.ContactInput__hr {
+  margin: 0;
+}
+
+.ContactInput__input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 20rem;
+  display: block;
+  border-radius: 2px;
+  border: 1px solid rgb(172, 173, 176);
+  box-shadow: none;
+}
+
+.ContactInput__input:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.ContactInput__submit {
+  text-transform: uppercase;
+  background: rgb(91, 144, 220);
+  color: white;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  float: right;
+  margin-top: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.ContactInput__submit:after {
+  content: '';
+  display: table;
+  clear: both;
+}
