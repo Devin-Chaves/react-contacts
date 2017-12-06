@@ -9,17 +9,17 @@ import logo from './magnetic_logo_white.png';
 var contacts = [
   {
     name: 'Devin Chaves',
-    phone: '(316) 516-4256',
+    phone: '(316) 516-2346',
     birthday: '2017-08-13'
   },
   {
     name: 'Kim Kretchmar',
-    phone: '(316) 990-6533',
+    phone: '(316) 990-2443',
     birthday: '2017-08-14'
   },
   {
     name: 'Jeff Chaves',
-    phone: '(316) 641-3909',
+    phone: '(316) 641-2449',
     birthday: '2017-08-15'
   }
 ];
